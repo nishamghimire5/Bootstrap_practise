@@ -7,7 +7,9 @@
   <!-- Font awesome -->
   <script src="https://kit.fontawesome.com/ef8bf79d49.js" crossorigin="anonymous"></script>
   <!-- Google font -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"
+    rel="stylesheet">
   <!-- Css bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
@@ -70,35 +72,56 @@
 
     <div class="row">
       <div class="feature-box col-lg-4">
-      <i class="icon far fa-check-circle fa-5x"></i>
-      <h3>Easy to use.</h3>
-      <p>So easy to use, even your dog could do it.</p>
+        <i class="icon far fa-check-circle fa-5x"></i>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, even your dog could do it.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-bullseye fa-5x"></i>
+        <h3>Elite Clientele</h3>
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-heart fa-5x"></i>
+        <h3>Guaranteed to work.</h3>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
     </div>
-    <div class="feature-box col-lg-4">
-      <i class="icon fas fa-bullseye fa-5x"></i>
-      <h3>Elite Clientele</h3>
-      <p>We have all the dogs, the greatest dogs.</p>
-    </div>
-    <div class="feature-box col-lg-4">
-      <i class="icon fas fa-heart fa-5x"></i>
-      <h3>Guaranteed to work.</h3>
-      <p>Find the love of your dog's life or your money back.</p>
-    </div>
-</div>
   </section>
 
 
   <!-- Testimonials -->
-
   <section id="testimonials">
 
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
 
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+    <div id="testimonial-indicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#testimonial-indicators" data-slide-to="0" class="active"></li>
+        <li data-target="#testimonial-indicators" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of
+            their life. I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+        <a class="testimonial-slide carousel-control-prev" href="#testimonial-indicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="testimonial-slide carousel-control-next" href="#testimonial-indicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="false"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
 
   </section>
 
